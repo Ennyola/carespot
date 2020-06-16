@@ -3,13 +3,12 @@
     background-color: #E5E5E5;
     color: black;
     font-weight: 900;
-    bottom: 230px;
-    left: 190px;
     height: 100vh;
+    width: 101.6%;
     border-top-left-radius: 45px;
 }
 
-.body-section .col-md-6:last-child {
+.body-section .col-md-7:last-child {
     padding-top: 35px;
     padding-left: 25px;
 }
@@ -87,12 +86,16 @@
 .sample-details {
     background-color: white;
     padding: 30px;
-    width: 68%;
+    width: 90%;
 }
 
 .details-header {
     display: flex;
     justify-content: space-between
+}
+
+.details-header h5 {
+    font-weight: 900;
 }
 
 .details-body {
@@ -113,4 +116,33 @@
 
 .details-body .fas {
     margin: 0px 6px;
+}
+
+.test-results {
+    background-color: white;
+    margin-top: 20px;
+    padding: 30px;
+    width: 90%;
+    height: 430px;
+    overflow: auto;
+    color: rgb(70, 66, 66);
+    font-size: 14px;
+}
+
+.test-results h5 {
+    color: black;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.test-results .col-sm-6:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(10, 148, 194);
+}
+
+@media (max-width:767px) {
+    .test-list {
+        border-top-left-radius: 0px;
+    }
 }

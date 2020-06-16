@@ -1,6 +1,6 @@
 .Sidebar ul {
     display: table;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .Sidebar li {
@@ -10,8 +10,9 @@
     font-size: 14px;
     right: 40px;
     padding-left: 25px;
-    margin-top: 10px;
+    margin-top: 15px;
     height: 30px;
+    width: 120%;
 }
 
 .side-icons {
@@ -25,4 +26,10 @@
     cursor: pointer;
     font-weight: 600;
     color: lightblue;
+}
+
+@media (max-width:767px) {
+    .Sidebar ul {
+        display: none;
+    }
 }

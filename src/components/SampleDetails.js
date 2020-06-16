@@ -5,8 +5,8 @@ class SampleDetails extends Component{
         return(
             <div className = "sample-details">
                 <div className = "details-header">
-                    <h4>Homoglobin</h4>
-                    <p>Normal 6.1%</p>
+                    <h5>Homoglobin</h5>
+                    <p className = "rate">Normal 6.1%</p>
                 </div>
                 <div className = "details-body">
                     <div>
@@ -14,19 +14,19 @@ class SampleDetails extends Component{
                         Elly Chemjor
                     </div>
                     <div>
-                        <i class="fas fa-stethoscope"></i>
+                        <i className="fas fa-stethoscope"></i>
                         Dr. Matiko
                     </div> 
                     <div>
-                        <i class="fas fa-calendar"></i>
+                        <i className="fas fa-calendar"></i>
                         26/02/20
                     </div>
                     <div>
-                        <i class="fas fa-x-ray"></i>
+                        <i className="fas fa-x-ray"></i>
                         Hemocue
                     </div>
                     <div>
-                        <i class="fas fa-file-medical-alt"></i>
+                        <i className="fas fa-file-medical-alt"></i>
                         Manual
                     </div>
                     

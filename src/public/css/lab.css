@@ -1,6 +1,21 @@
 .Lab {
     background-color: #3f48cc;
     margin: 0;
-    height: 1000px;
+    height: 100vh;
     color: white;
 }
+
+
+/* .Lab .lab-flex-container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.Lab .row {
+    margin-right: 0;
+}
+
+
+/* .lab-flex1 {
+    border: 3px solid red;
+} */

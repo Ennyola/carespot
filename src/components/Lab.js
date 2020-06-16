@@ -11,8 +11,14 @@ class Lab extends Component{
         return(
             <div className = "Lab">
                 <Navbar/>
-                <Sidebar/>
-                <Body/>
+                
+                    <div className="row">
+                        <div className="col-md-2"><Sidebar/></div>
+                        <div className="col-md-10"><Body/></div>
+                    </div>
+                  
+                
+                
             </div>
         )
     }

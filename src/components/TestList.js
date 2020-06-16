@@ -6,7 +6,7 @@ class TestList extends Component{
             <div className = "test-list">
                 <div className = "input">
                     
-                    <input type="text" className = "form-control"/>
+                    <input type="text" className = "form-control" placeholder = "search patients"/>
                 </div>
                 <div className = "list">
                     <div className = "result-list">
@@ -20,7 +20,7 @@ class TestList extends Component{
                                     Elly Chemjor
                                 </div>
                                 <div>
-                                    <i class="fas fa-stethoscope"></i>
+                                    <i className="fas fa-stethoscope"></i>
                                     Dr. Matiko
                                 </div> 
                             </div>  
@@ -49,7 +49,7 @@ class TestList extends Component{
                                     Elly Chemjor
                                 </div>
                                 <div>
-                                    <i class="fas fa-stethoscope"></i>
+                                    <i className="fas fa-stethoscope"></i>
                                     Dr. Matiko
                                 </div> 
                             </div>  
@@ -76,7 +76,7 @@ class TestList extends Component{
                                     Elly Chemjor
                                 </div>
                                 <div>
-                                    <i class="fas fa-stethoscope"></i>
+                                    <i className="fas fa-stethoscope"></i>
                                     Dr. Matiko
                                 </div> 
                             </div>  
