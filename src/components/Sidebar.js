@@ -7,7 +7,7 @@ class Sidebar extends Component{
         return(
             <aside className = "Sidebar">
                 <ul>
-                    <li> <i className="side-icons fas fa-th"></i>  Dashboard</li>
+                    <li> <i className="side-icons fas fa-th"></i> Dashboard </li>
                     <li><i className="side-icons fas fa-user"></i> Patients</li>
                     <li> <i className="side-icons fas fa-vial"></i> Lab Tests</li>
                     <li><i className="side-icons far fa-comment-alt"></i> Messaging</li>

@@ -31,3 +31,28 @@
     margin-right: 30px;
     font-weight: 900;
 }
+
+.collapse-links {
+    position: relative;
+    list-style-type: none;
+    margin: 20px;
+    right: 40px;
+}
+
+#collapse-icon {
+    cursor: pointer;
+    font-size: 25px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .Navbar {
+        min-height: 100px;
+    }
+    .navicons {
+        display: none;
+    }
+    #collapse-icon {
+        display: inline;
+    }
+}

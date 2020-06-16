@@ -36,7 +36,8 @@ class TestList extends Component{
                         </div>
                         
                     </div>
-                    <hr/>
+                    
+                    
                     
                     <div className = "result-list">
                         <div className = "first-item">
@@ -64,7 +65,7 @@ class TestList extends Component{
                             </div>     
                         </div>  
                     </div>
-                    <hr/>
+                    
                     <div className = "result-list">
                         <div className = "first-item">
                             <div className="row">

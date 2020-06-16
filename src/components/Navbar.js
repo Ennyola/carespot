@@ -18,21 +18,29 @@ class Navbar extends Component{
             
                 <span className = "nav-config">
                     <ul className = "nav">
-                       <li > <i className="fas fa-cog"></i> </li>
-                       <li> <i className="fas fa-bell"></i> </li>
+                       <li > <i className="navicons fas fa-cog"></i> </li>
+                       <li> <i className="navicons fas fa-bell"></i> </li>
                        <li> 
                           <img src={faker.image.avatar()} alt="avatar"/>
                           <span className = "username"> John Smith </span>
                        </li>
-                     <a href="" data-toggle = "collapse" data-target = "#links"> <li> <i className="fas fa-angle-down"></i> </li> </a>
+                      <li> <i id = "collapse-icon" data-toggle = "collapse" data-target = "#links" className="fas fa-angle-down"></i> </li> 
                     </ul>
                 </span>
                 <ul className = "collapse" id = "links">
-                    <li> <i className="side-icons fas fa-th"></i>  Dashboard</li>
-                    <li><i className="side-icons fas fa-user"></i> Patients</li>
-                    <li> <i className="side-icons fas fa-vial"></i> Lab Tests</li>
-                    <li><i className="side-icons far fa-comment-alt"></i> Messaging</li>
-                    <li> <i className="side-icons far fa-heart"></i>Loyalty</li>
+                    <li className = "collapse-links"> <i className="side-icons fas fa-th"></i>  Dashboard</li>
+                    <li className = "collapse-links"><i className="side-icons fas fa-user"></i> Patients</li>
+                    <li className = "collapse-links"> <i className="side-icons fas fa-vial"></i> Lab Tests</li>
+                    <li className = "collapse-links"><i className="side-icons far fa-comment-alt"></i> Messaging</li>
+                    <li className = "collapse-links"> <i className="side-icons far fa-heart"></i>Loyalty</li>
+                    <li className = "collapse-links">
+                        <i className="side-icons fas fa-cog"></i>
+                        Settings
+                    </li>
+                    <li className = "collapse-links">
+                        <i className="side-icons fas fa-bell"></i>
+                        Notifications
+                    </li>
                 </ul>
                 
             </nav>

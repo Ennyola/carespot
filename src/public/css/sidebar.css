@@ -22,10 +22,13 @@
 }
 
 .Sidebar li:hover {
-    border-left: 3px solid lightblue;
+    border-left: 3px solid rgb(10, 148, 194);
     cursor: pointer;
-    font-weight: 600;
-    color: lightblue;
+    color: white
+}
+
+.Sidebar li:hover .side-icons {
+    color: rgb(10, 148, 194);
 }
 
 @media (max-width:767px) {
