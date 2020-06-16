@@ -86,4 +86,31 @@
 
 .result-details {
     background-color: white;
+    padding: 30px;
+    width: 68%;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between
+}
+
+.details-body {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 25px;
+}
+
+.details-body>div {
+    margin: 20px;
+}
+
+.details-body>div:hover {
+    color: rgb(10, 148, 194);
+    cursor: pointer;
+}
+
+.details-body .fas {
+    margin: 0px 6px;
 }

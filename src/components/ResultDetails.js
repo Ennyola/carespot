@@ -4,11 +4,11 @@ class ResultDetails extends Component{
     render(){
         return(
             <div className = "result-details">
-                <div>
+                <div className = "details-header">
                     <h4>Homoglobin</h4>
                     <p>Normal 6.1%</p>
                 </div>
-                <div>
+                <div className = "details-body">
                     <div>
                         <i className="fas fa-user"></i> 
                         Elly Chemjor
@@ -18,15 +18,18 @@ class ResultDetails extends Component{
                         Dr. Matiko
                     </div> 
                     <div>
-                        <i class="far fa-calendar"></i>
+                        <i class="fas fa-calendar"></i>
                         26/02/20
                     </div>
                     <div>
-                        Manual
+                        <i class="fas fa-x-ray"></i>
+                        Hemocue
                     </div>
                     <div>
-
+                        <i class="fas fa-file-medical-alt"></i>
+                        Manual
                     </div>
+                    
                     
                 </div>
             </div>
