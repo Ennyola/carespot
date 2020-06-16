@@ -2,7 +2,7 @@ import '../public/css/body.css'
 import React, {Component} from 'react'
 
 import TestList from './TestList'
-import ResultDetails from './ResultDetails'
+import SampleDetails from './SampleDetails'
 
 class Body extends Component{
     render(){
@@ -14,7 +14,7 @@ class Body extends Component{
                         </div>
                         <div className="col-md-6">
                             <div className = "row">
-                                <ResultDetails/>
+                                <SampleDetails/>
                             </div>
                             <div className="row"></div>  
                         </div>

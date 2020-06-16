@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-class ResultDetails extends Component{
+class SampleDetails extends Component{
     render(){
         return(
-            <div className = "result-details">
+            <div className = "sample-details">
                 <div className = "details-header">
                     <h4>Homoglobin</h4>
                     <p>Normal 6.1%</p>
@@ -36,4 +36,4 @@ class ResultDetails extends Component{
         )
     }
 }
-export default ResultDetails
+export default SampleDetails
