@@ -1,0 +1,33 @@
+.Navbar {
+    padding: 15px 30px;
+}
+
+.brand {
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.Navbar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nav-config {
+    float: right;
+    margin-top: 8px;
+}
+
+.nav-config .fas {
+    margin-right: 20px;
+}
+
+.nav-config .username {
+    position: relative;
+    margin-right: 30px;
+    font-weight: 900;
+}

@@ -1,0 +1,89 @@
+.body-section {
+    position: relative;
+    background-color: #E5E5E5;
+    color: black;
+    font-weight: 900;
+    bottom: 230px;
+    left: 190px;
+    height: 100vh;
+    border-top-left-radius: 45px;
+}
+
+.body-section .col-md-6:last-child {
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.test-list {
+    background-color: white;
+    height: 100vh;
+    border-top-left-radius: 45px;
+    padding-top: 40px;
+    overflow: auto;
+    font-size: 14px;
+    color: rgb(68, 59, 59);
+}
+
+.test-list .list {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.test-list .result-list {
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    padding: 0px 35px;
+    justify-content: space-between;
+    line-height: 2.5;
+    overflow: hidden;
+}
+
+.test-list .result-list:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(10, 148, 194);
+}
+
+.input .fas {
+    position: relative;
+    left: 490px;
+    top: 30px;
+    width: inherit;
+    color: rgb(110, 103, 103);
+}
+
+.form-control {
+    width: 60%;
+    margin-left: 5%;
+    border-radius: 45px;
+    padding: 0 2rem;
+}
+
+.first-item>.row:last-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1px;
+}
+
+.first-item>.row:last-child .fas {
+    margin-right: 10px;
+}
+
+.sample-result {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.second-item {
+    position: relative;
+    top: 5px;
+}
+
+.rate {
+    color: rgb(33, 156, 33);
+}
+
+.result-details {
+    background-color: white;
+}
