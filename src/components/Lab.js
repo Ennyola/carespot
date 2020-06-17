@@ -10,15 +10,11 @@ class Lab extends Component{
     render(){
         return(
             <div className = "Lab">
-                <Navbar/>
-                
+                <Navbar/>      
                     <div className="row">
                         <div className="col-md-2"><Sidebar/></div>
                         <div className="col-md-10"><Body/></div>
-                    </div>
-                  
-                
-                
+                    </div> 
             </div>
         )
     }

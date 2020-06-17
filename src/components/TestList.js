@@ -4,8 +4,8 @@ class TestList extends Component{
     render(){
         return(
             <div className = "test-list">
-                <div className = "input">
-                    
+                <div className = "search">
+                    <i className="fas fa-search"></i>
                     <input type="text" className = "form-control" placeholder = "search patients"/>
                 </div>
                 <div className = "list">

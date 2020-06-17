@@ -1,21 +1,24 @@
 .Lab {
-    background-color: #3f48cc;
+    background-color: #2b2f8e;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     color: white;
 }
-
-
-/* .Lab .lab-flex-container {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .Lab .row {
     margin-right: 0;
 }
 
+.Lab .row>.col-md-10 {
+    padding: 0px;
+}
 
-/* .lab-flex1 {
-    border: 3px solid red;
-} */
+@media (max-width: 980px) {
+    .Lab .row>.col-md-2 {
+        display: none;
+    }
+    .row>.col-md-10 {
+        flex: unset;
+        max-width: unset;
+    }
+}

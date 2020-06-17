@@ -10,10 +10,10 @@ class Body extends Component{
         return(
             <section className = "body-section">
                     <div className = "row">
-                        <div className="col-md-5">
+                        <div className="col-md-6">
                             <TestList/>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-md-6">
                             <div className = "row">
                                 <SampleDetails/>
                             </div>

@@ -8,30 +8,43 @@ class SampleDetails extends Component{
                     <h5>Homoglobin</h5>
                     <p className = "rate">Normal 6.1%</p>
                 </div>
-                <div className = "details-body">
-                    <div>
-                        <i className="fas fa-user"></i> 
-                        Elly Chemjor
+
+                <div className="row">
+                    <div className="col-md-4">
+                        <span>
+                            <i className="details-icon fas fa-user"></i> 
+                            Elly Chemjor
+                        </span>
                     </div>
-                    <div>
-                        <i className="fas fa-stethoscope"></i>
-                        Dr. Matiko
-                    </div> 
-                    <div>
-                        <i className="fas fa-calendar"></i>
-                        26/02/20
+                    <div className="col-md-4">
+                        <span>
+                            <i className="details-icon fas fa-stethoscope"></i>
+                            Dr. Matiko
+                        </span> 
                     </div>
-                    <div>
-                        <i className="fas fa-x-ray"></i>
-                        Hemocue
+                    <div className="col-md-4">
+                        <span>
+                            <i className="details-icon fas fa-calendar"></i>
+                            26/02/20
+                        </span>
                     </div>
-                    <div>
-                        <i className="fas fa-file-medical-alt"></i>
-                        Manual
-                    </div>
-                    
-                    
                 </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <span>
+                            <i className="details-icon fas fa-x-ray"></i>
+                            Hemocue
+                        </span>
+                    </div>
+                    <div className="col-md-4">
+                        <span>
+                            <i className="details-icon fas fa-file-medical-alt"></i>
+                            Manual
+                        </span> 
+                    </div>
+                    <div className="col-md-4"></div>
+                </div>
+                
             </div>
         )
     }

@@ -10,17 +10,12 @@ class Navbar extends Component{
                 <span className = "brand">
                     <i className="fas fa-heartbeat"></i>
                     <span className = "logo"> Carespot </span> - Ilara Health medical clinic
-                    
                 </span>
-
-                
-
-            
                 <span className = "nav-config">
                     <ul className = "nav">
                        <li > <i className="navicons fas fa-cog"></i> </li>
                        <li> <i className="navicons fas fa-bell"></i> </li>
-                       <li> 
+                       <li id = "user"> 
                           <img src={faker.image.avatar()} alt="avatar"/>
                           <span className = "username"> John Smith </span>
                        </li>
@@ -33,10 +28,7 @@ class Navbar extends Component{
                     <li className = "collapse-links"> <i className="side-icons fas fa-vial"></i> Lab Tests</li>
                     <li className = "collapse-links"><i className="side-icons far fa-comment-alt"></i> Messaging</li>
                     <li className = "collapse-links"> <i className="side-icons far fa-heart"></i>Loyalty</li>
-                    <li className = "collapse-links">
-                        <i className="side-icons fas fa-cog"></i>
-                        Settings
-                    </li>
+                    <li className = "collapse-links"><i className="side-icons fas fa-cog"></i>Settings</li>
                     <li className = "collapse-links">
                         <i className="side-icons fas fa-bell"></i>
                         Notifications
