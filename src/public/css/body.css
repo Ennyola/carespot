@@ -171,8 +171,8 @@
 }
 
 .test-results h5 {
-    color: black;
-    font-weight: 900;
+    color: #222222;
+    font-weight: bold;
     margin-bottom: 30px;
 }
 
@@ -221,5 +221,24 @@
 @media (max-width: 767px) {
     .test-list {
         height: 600px;
+    }
+    .body-section .col-md-6:first-child,
+    .body-section .col-md-6:last-child {
+        padding-right: unset;
+    }
+    .sample-details {
+        width: 95%;
+    }
+    .sample-details>.row {
+        flex-wrap: nowrap;
+    }
+    .test-results {
+        width: 100%;
+    }
+    .body-section .col-md-6:last-child>.row:first-child {
+        padding-left: 40px;
+    }
+    .body-section .col-md-6:last-child>.row {
+        margin-top: 10px;
     }
 }

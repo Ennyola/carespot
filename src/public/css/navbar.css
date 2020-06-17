@@ -2,8 +2,18 @@
     padding: 15px 30px;
 }
 
+.nav-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
 .brand {
     font-size: 14px;
+}
+
+#links {
+    position: relative;
+    right: 5px;
 }
 
 .brand .fas {
@@ -54,14 +64,29 @@
     display: none;
 }
 
+@media(min-width:980px) {
+    #links {
+        display: none;
+    }
+}
+
 @media (max-width: 980px) {
     .Navbar {
-        min-height: 100px;
+        min-height: 70px;
     }
     .navicons {
         display: none;
     }
     #collapse-icon {
         display: inline;
+    }
+}
+
+@media (max-width: 700px) {
+    .Navbar {
+        padding: 15px 0px;
+    }
+    #brand-value {
+        display: none;
     }
 }

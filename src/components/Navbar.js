@@ -7,9 +7,10 @@ class Navbar extends Component{
     render(){
         return(
             <nav className = "Navbar">
+                <div className = "nav-contents">
                 <span className = "brand">
                     <i className="fas fa-heartbeat"></i>
-                    <span className = "logo"> Carespot </span> - Ilara Health medical clinic
+                    <span className = "logo"> Carespot </span> <span id = "brand-value">- Ilara Health medical clinic</span>
                 </span>
                 <span className = "nav-config">
                     <ul className = "nav">
@@ -22,6 +23,7 @@ class Navbar extends Component{
                       <li> <i id = "collapse-icon" data-toggle = "collapse" data-target = "#links" className="fas fa-angle-down"></i> </li> 
                     </ul>
                 </span>
+                </div>
                 <ul className = "collapse" id = "links">
                     <li className = "collapse-links"> <i className="side-icons fas fa-th"></i>  Dashboard</li>
                     <li className = "collapse-links"><i className="side-icons fas fa-user"></i> Patients</li>
@@ -29,10 +31,7 @@ class Navbar extends Component{
                     <li className = "collapse-links"><i className="side-icons far fa-comment-alt"></i> Messaging</li>
                     <li className = "collapse-links"> <i className="side-icons far fa-heart"></i>Loyalty</li>
                     <li className = "collapse-links"><i className="side-icons fas fa-cog"></i>Settings</li>
-                    <li className = "collapse-links">
-                        <i className="side-icons fas fa-bell"></i>
-                        Notifications
-                    </li>
+                    <li className = "collapse-links"> <i className="side-icons fas fa-bell"></i>Notifications</li>
                 </ul>
                 
             </nav>
